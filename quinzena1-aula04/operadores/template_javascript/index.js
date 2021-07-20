@@ -17,7 +17,7 @@ console.log("d. ", typeof resultado) // Resultado será boolean
 /* 2- Seu colega se aproxima de você falando que o código dele não funciona como devia.
 Vamos ajudá-lo: consegue perceber algum problema? O que será impresso no console?*/
 
-*let primeiroNumero = prompt("Digite um numero!")
+let primeiroNumero = prompt("Digite um numero!")
 let segundoNumero = prompt("Digite outro numero!")
 
 const soma = primeiroNumero + segundoNumero
@@ -84,9 +84,6 @@ console.log(suaIdade - idadeAmigo)
     console.log(idade * 365)
     console.log(365 * 24 * 60 * idade)
 
-    
-
-    
 
     /*4. Faça um programa que pergunte ao usuário dois números. 
     Em seguida, faça as operações e imprima no console as seguintes mensagens:
@@ -102,6 +99,3 @@ console.log(suaIdade - idadeAmigo)
     console.log("O primeiro numero é igual ao segundo?", primeiroNumero === segundoNumero)
     console.log("O primeiro numero é divisível pelo segundo?", primeiroNumero % segundoNumero === 0)
     console.log("O segundo numero é divisível pelo primeiro?", segundoNumero % primeiroNumero === 0)
-
-
-
