@@ -27,7 +27,6 @@ function calculaAreaRetangulo() {
   const largura = prompt("Digite a largura do retangulo!")
 
   console.log(altura * largura)
-
 }
 
 // Exercício 2
@@ -37,7 +36,6 @@ function imprimeIdade() {
   const anoNascimento = prompt("Digite o ano de que você nasceu")
 
   console.log(anoAtual - anoNascimento)
-
 }
 
 // Exercício 3
@@ -47,7 +45,6 @@ function calculaIMC() {
   const altura = prompt("Digite sua altura em metros!")
 
   console.log(peso / (altura * altura))
-
 }
 
 // Exercício 4
@@ -58,7 +55,6 @@ function imprimeInformacoesUsuario() {
   const email = prompt("Digite seu email!")
 
   console.log("Meu nome é " + nome + ", " + "tenho " + idade + " anos, e o meu email é " + email + ".")
-
 }
 
 // Exercício 5
@@ -70,7 +66,6 @@ function imprimeTresCoresFavoritas() {
   coresFavoritas[2] = prompt("Digite sua terceira cor favorita!")
 
   console.log(coresFavoritas)
-
 }
 
 // Exercício 6
@@ -88,7 +83,6 @@ function calculaIngressosEspetaculo() {
   const valorIngresso = prompt("Digite o valor de cada ingresso!")
 
   console.log(custoTotal / valorIngresso)
-
 }
 
 // Exercício 8
@@ -107,8 +101,6 @@ function checaIgualdadeDesconsiderandoCase() {
   const digitePalavra2  = prompt("Digite outra palavra!")
 
   console.log(digitePalavra1.toLowerCase() === digitePalavra2.toLowerCase())
-
-
 }
 
 // Exercício 10
@@ -128,7 +120,6 @@ function checaRenovacaoRG() {
   let renovacao = renovacao20 || renovacao20e50 || renovacao50mais
 
   console.log(renovacao)
-
 }
 
 // Exercício 11
@@ -144,7 +135,6 @@ function checaAnoBissexto() {
   let anoBissexto = multiplo400 || multiplo4e100 
 
   console.log(anoBissexto)
-
 }
 
 // Exercício 12
