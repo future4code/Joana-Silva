@@ -2,7 +2,7 @@
 //Está representando um evento que se repete, enquanto "valor" for < que 5
 // ele vai incrementar um número e o código vai rodar até chegar ao número 5.
 
-//Qual o resultado impresso no console? 
+//Qual o resultado impresso no console? R:10
 
 
 let valor = 0
@@ -26,9 +26,8 @@ for (let numero of lista) {
 //R: É sim o suficiente, seria só eu criar a variavel i = 0 e dar console.log na var i 
 // e incrementar i++.
 /*Exemplo: const lista = [10, 11, 12, 15, 18, 19, 21, 23, 25, 27, 30]
-           let i = 0 
            for (let numero of lista) {
-           console.log(`indice ${i} é o número: ${lista[i]}`); i++;
+           console.log(lista.indexOf()); 
            } */
 
 //3. Qual seria o resultado impresso no console, se o usuário digitasse o número `4` ?
