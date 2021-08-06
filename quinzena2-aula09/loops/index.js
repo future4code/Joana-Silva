@@ -120,9 +120,11 @@ for (let numero of lista) {
            console.log(novoArrayDeString())
 
     //     e) Escreva um programa que imprima no console o maior e o menor números contidos no array original
-           
+          
+        function retornaMaioreMenor() {
+
           let maiorNumero = 0
-          let menorNumero = 140
+          let menorNumero = 9999999
           for (let numeros of arrayOriginal) {
           if (numeros > maiorNumero) {
              maiorNumero = numeros
@@ -130,7 +132,12 @@ for (let numero of lista) {
                  menorNumero = numeros
              } 
           }
-          console.log(`Maior número é: ${maiorNumero} e o menor é:${menorNumero}`) 
+          return [maiorNumero, menorNumero]
+
+         }
+         
+         let retorno = retornaMaioreMenor()
+         console.log(`Maior número é: ${retorno[0]} e o menor é:${retorno[1]}`) 
           
         
           
