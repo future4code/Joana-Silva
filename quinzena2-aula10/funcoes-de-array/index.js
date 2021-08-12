@@ -91,4 +91,5 @@ const usuarios = [
      const mensagem = mensagemDePromocao.map(imprimeMensagem)
      console.log(mensagem)
 
+     
     
