@@ -88,11 +88,14 @@ function retornaNNumerosPares(n) {
 
 // EXERCÍCIO 08
 function checaTriangulo(a, b, c) {
- 
+  if (a === b && b === c) {
+    return 'Equilátero'
+  } else if ( a !== b && b !== c) {
+   return 'Escaleno'
+  } else {
+    return 'Isósceles'
+  }
 }
-  // return 'Escaleno'
-  // return 'Equilátero'
-  // return 'Isósceles'
 
 // EXERCÍCIO 09
 function comparaDoisNumeros(num1, num2) {
@@ -116,17 +119,36 @@ function ordenaArray(array) {
 
 // EXERCÍCIO 12
 function filmeFavorito() {
-
+const filmeFavorito = {
+  nome: "O Diabo Veste Prada",
+  ano: 2006,
+  diretor: "David Frankel",
+  atores: ["Meryl Streep", "Anne Hathaway", "Emily Blunt", "Stanley Tucci"]
+}
+return filmeFavorito
 }
 
 // EXERCÍCIO 13
 function imprimeChamada() {
-  // "Venha assistir ao filme NOME_DO_FILME, de ANO, dirigido por DIRECAO e estrelado por ELENCO."
+  const filmeFavorito = {
+    nome: "O Diabo Veste Prada",
+    ano: 2006,
+    diretor: "David Frankel",
+    atores: ["Meryl Streep", "Anne Hathaway", "Emily Blunt", "Stanley Tucci"]
+  }
+  return `Venha assistir ao filme ${filmeFavorito.nome}, de ${filmeFavorito.ano}, dirigido por ${filmeFavorito.diretor} e estrelado por ${filmeFavorito.atores[0]}, ${filmeFavorito.atores[1]}, ${filmeFavorito.atores[2]}, ${filmeFavorito.atores[3]}.`
+  
 }
 
 // EXERCÍCIO 14
 function criaRetangulo(lado1, lado2) {
-
+  const retangulo = {
+   largura: lado1,
+   altura: lado2,
+   perimetro: 2 * (lado1 + lado2),
+   area: lado1 * lado2
+  }
+  return retangulo
 }
 
 // EXERCÍCIO 15
