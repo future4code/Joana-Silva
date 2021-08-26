@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;   
+}
+
+.cabeçalho{
+    background-color: rgb(221, 7, 89);
+    height: 100px;
+    text-align: center;
+    color:white;
+    padding: 40px;
+}
+
+.sub-cabeçalho{
+    background-color: rgb(247, 149, 149);
+    color: white;
+    font-size: 30px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+}
+
+.cabecalho > p {
+    font-style: italic;
+    padding-top: 10px;
+}
+
+h2 {
+    margin: 20px;
+}
+
+.links {
+    height: 200px;
+    text-align: center;
+}
+
+.links > a {
+    display: block;
+    width: 21%;
+    float: left;
+    border: 1px solid rgb(247, 149, 149);  
+    background-color: whitesmoke;
+    text-align: center;
+    margin: 10px 0 10px 10px;
+    padding: 8px;
+}
+
+a:last-of-type {
+    margin: 10px 10px 10px 10px;
+}
+
+a:hover {
+    color: blue;
+}
+
+.corpo {
+    height: 200px;
+}
+.rodape {
+    background-color: rgb(243, 148, 203);
+    height: 150px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+table {
+    text-align: center;
+}
+
+td, th {
+    padding: 10px;
+    border: 1px solid grey;
+}
+td > img {
+    height: 100px;
+}
