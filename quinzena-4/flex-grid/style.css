@@ -9,26 +9,29 @@ body{
     height: 100vh;
 }
 
-header {
+h1 {
     display: flex;
+    flex-direction: row;
+    height: 30px;
     background-color: mediumvioletred;
     align-items: center;
     justify-content:space-between;
-    flex-grow: 1;
-    padding: 0 16px
+    padding: 8px;
+    margin-bottom: 0;
 }
 
-main{
+table{
     background-color: #f2d0e0;
-    flex-grow: 15;
-    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    
+
 
 
 }
 
 footer{
     background-color: mediumvioletred;
-    flex-grow: 1;
     display: flex;
     align-items: center;
     justify-content: center;
