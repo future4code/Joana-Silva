@@ -40,10 +40,20 @@ class Etapa1 extends React.Component {
 
                 <div>
                     <p>4. Qual a sua escolaridade?</p>
-                    <input
+                    {/* <input
                         value={this.props.state}
                         onChange={this.onChangeIput}
-                    />
+                    /> */}
+
+                    <select>
+                        <option value="none"></option>
+                        <option value="sup-incompleto" selected>Ensino Superior Incompleto</option>
+                        <option value="sup-comleto">Ensino Superior completo</option>
+                        <option value="med-incompleto">Ensino Médio incompleto</option>
+                        <option value="med-completo">Ensino Médio completo</option>
+
+
+                    </select>
                 </div>
 
 
