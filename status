@@ -1,0 +1,532 @@
+[33mcommit 2f8a9246d6784bbcf5eca95d1521d1e05d0d856e[m[33m ([m[1;36mHEAD -> [m[1;32mquinzena6-aula21[m[33m)[m
+Author: jojodias28 <dias.jo1992@gmail.com>
+Date:   Thu Sep 23 20:29:49 2021 -0300
+
+    Labs-form com a tag select
+
+[33mcommit 98d2466fec2ac2ad8f9162e9cd2abd0e81fe3610[m[33m ([m[1;31morigin/quinzena6-aula21[m[33m)[m
+Author: jojodias28 <dias.jo1992@gmail.com>
+Date:   Thu Sep 23 01:53:34 2021 -0300
+
+    labe-form
+
+[33mcommit 961f8ce5aa78e95b6ba005e3c93362cec7553403[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Merge: 2cce943 afb0716
+Author: jojodias28 <86752698+jojodias28@users.noreply.github.com>
+Date:   Thu Sep 16 21:56:30 2021 -0300
+
+    Merge pull request #25 from future4code/quinzena5-aula19
+    
+    Insta4
+
+[33mcommit 2cce94339fb76b9f03e397e27fc5360e73861b99[m
+Merge: f000592 2203bee
+Author: jojodias28 <86752698+jojodias28@users.noreply.github.com>
+Date:   Thu Sep 16 21:56:07 2021 -0300
+
+    Merge pull request #24 from future4code/quinzena5-aula18
+    
+    Labedin
+
+[33mcommit f0005928e10155bd73e64360a8731ddeb5752d66[m
+Merge: b7c555b e2ed0d4
+Author: jojodias28 <86752698+jojodias28@users.noreply.github.com>
+Date:   Thu Sep 16 21:55:51 2021 -0300
+
+    Merge pull request #23 from future4code/quinzena5-aula17
+    
+    version labetube-react-01
+
+[33mcommit b7c555b538bb32aa35493e64cc93755ff7d7d212[m
+Merge: 2cc3387 144b021
+Author: jojodias28 <86752698+jojodias28@users.noreply.github.com>
+Date:   Thu Sep 16 21:55:35 2021 -0300
+
+    Merge pull request #22 from future4code/quinzena4-aula16
+    
+    Quinzena4 aula16
+
+[33mcommit afb07165427470a9e10c6fd329132af9a5ebc3df[m
+Author: Joana Dias <dias.jo1992@gmail.com>
+Date:   Tue Sep 14 02:44:19 2021 -0300
+
+    Insta4
+
+[33mcommit 2203beef9fc7a10e2a5855cea31da37b687df6ff[m[33m ([m[1;31morigin/quinzena5-aula18[m[33m)[m
+Author: Joana Dias <dias.jo1992@gmail.com>
+Date:   Thu Sep 9 20:29:58 2021 -0300
+
+    Labedin
+
+[33mcommit e2ed0d4eef4cf0b5ad67d7ac3386f7a431a637f6[m[33m ([m[1;31morigin/quinzena5-aula17[m[33m)[m
+Author: Joana Dias <dias.jo1992@gmail.com>
+Date:   Wed Sep 8 23:37:19 2021 -0300
+
+    version labetube-react-01
+
+[33mcommit 144b0219dd3b43b22d2ed28dca9542c0351db493[m[33m ([m[1;31morigin/quinzena4-aula16[m[33m)[m
+Author: Joana Dias <dias.jo1992@gmail.com>
+Date:   Thu Sep 2 23:17:19 2021 -0300
+
+    exercicio JS
+
+[33mcommit 00a32ef496de8a637ccbe5802d1654c289460a77[m
+Author: Joana Dias <dias.jo1992@gmail.com>
+Date:   Thu Sep 2 23:12:01 2021 -0300
+
+    responsividade
+
+[33mcommit 2cc3387050be5871ef0201640d4d6748f3b03d24[m
+Merge: 4e95218 79f2c4c
+Author: jojodias28 <86752698+jojodias28@users.noreply.github.com>
+Date:   Thu Sep 2 21:53:34 2021 -0300
+
+    Merge pull request #21 from future4code/quinzena4-aula15
+    
+    Quinzena4 aula15
+
+[33mcommit 79f2c4ce73864bbf977ad0d9bd156988a6d64c1d[m[33m ([m[1;31morigin/quinzena4-aula15[m[33m)[m
+Merge: 7b42fdf 4e95218
+Author: jojodias28 <86752698+jojodias28@users.noreply.github.com>
+Date:   Thu Sep 2 21:52:10 2021 -0300
+
+    Merge branch 'master' into quinzena4-aula15
+
+[33mcommit 4e95218270f5cfdd0ce1862dc346bf14996d2fe5[m
+Merge: 1994f78 f012b1d
+Author: jojodias28 <86752698+jojodias28@users.noreply.github.com>
+Date:   Thu Sep 2 20:57:12 2021 -0300
+
+    Merge pull request #20 from future4code/quinzena4-aula14
+    
+    AULA 14 FLEXBOX E GRID
+
+[33mcommit 1994f78ace70e1e1d759cade69c7f3c1d11b236a[m
+Merge: bdcffeb 22d9066
+Author: jojodias28 <86752698+jojodias28@users.noreply.github.com>
+Date:   Thu Sep 2 20:56:53 2021 -0300
+
+    Merge pull request #19 from future4code/quinzena3-aula13
+    
+    Quinzena3 aula13
+
+[33mcommit bdcffeb84918884cab1d5aa059045be4d3138575[m
+Merge: 9193147 a223cf9
+Author: jojodias28 <86752698+jojodias28@users.noreply.github.com>
+Date:   Thu Sep 2 20:55:03 2021 -0300
+
+    Merge pull request #18 from future4code/quinzena3
+    
+    Quinzena3
+
+[33mcommit 7b42fdf5e0561f60bf600a01e8437c8110e5eb1f[m
+Author: Joana Dias <dias.jo1992@gmail.com>
+Date:   Tue Aug 31 22:54:56 2021 -0300
+
+    exercicio JS
+
+[33mcommit 594e93efb1dbce72b0fcad300f35a22efa044fac[m
+Author: Joana Dias <dias.jo1992@gmail.com>
+Date:   Tue Aug 31 22:24:02 2021 -0300
+
+    Finalizado
+
+[33mcommit f012b1d3968555a1e4a4d0ca88109427b6bcd8e0[m[33m ([m[1;31morigin/quinzena4-aula14[m[33m)[m
+Author: Joana Dias <dias.jo1992@gmail.com>
+Date:   Mon Aug 30 17:55:25 2021 -0300
+
+    ultima versao
+
+[33mcommit 595cfe123e8d269a36caf6813c9c292a1ab46d9c[m
+Author: Joana Dias <dias.jo1992@gmail.com>
+Date:   Sat Aug 28 00:39:37 2021 -0300
+
+    nova version
+
+[33mcommit 1c368297d4b993f11f283da93fd5cba6ab4e5109[m
+Author: Joana Dias <dias.jo1992@gmail.com>
+Date:   Fri Aug 27 05:10:20 2021 -0300
+
+    primeira versão
+
+[33mcommit 22d906684444b1943de507cc2c3617bf9605f150[m[33m ([m[1;31morigin/quinzena3-aula13[m[33m)[m
+Author: Joana Dias <dias.jo1992@gmail.com>
+Date:   Fri Aug 27 03:27:08 2021 -0300
+
+    Commit para adicionar o exercico de JS
+
+[33mcommit 5af7c2491304e7e27fd9eb132d19aafcaabe5751[m
+Author: Joana Dias <dias.jo1992@gmail.com>
+Date:   Fri Aug 27 03:21:40 2021 -0300
+
+    último commit
+
+[33mcommit 897f2704fca37c926ddba3ca864d6f742f75fa8e[m
+Author: Joana Dias <dias.jo1992@gmail.com>
+Date:   Fri Aug 27 02:34:47 2021 -0300
+
+    Atualizei a cor do botão quando passar o mouse por cima usando hover
+
+[33mcommit bfdbb4a7b39eb7080d0e7bac1c6b77c8be0743c5[m
+Author: Joana Dias <dias.jo1992@gmail.com>
+Date:   Fri Aug 27 02:22:50 2021 -0300
+
+    Adicionei uma imagem de lupa na barra de pesquisa
+
+[33mcommit dcaee5dc534876020e268da62b74cf807416c04b[m
+Author: Joana Dias <dias.jo1992@gmail.com>
+Date:   Fri Aug 27 01:42:40 2021 -0300
+
+    Colocar todas as imagens do mesmo tamanho usando width
+
+[33mcommit a4dfef12530b9179c2cf5401efd74c16d611cc4e[m
+Author: Joana Dias <dias.jo1992@gmail.com>
+Date:   Fri Aug 27 01:23:51 2021 -0300
+
+    Centralizei o texto da tabela usando text-align
+
+[33mcommit f8fe21d3546005d1a3e968a8031714ac0dc1e598[m
+Author: Joana Dias <dias.jo1992@gmail.com>
+Date:   Fri Aug 27 00:59:44 2021 -0300
+
+    version
+
+[33mcommit bea678af7493516cef6bbcd5ddf74225b7187408[m
+Author: Joana Dias <dias.jo1992@gmail.com>
+Date:   Fri Aug 27 00:08:05 2021 -0300
+
+    version 0
+
+[33mcommit 91599b1927dfc64d3489f620dd06b483fa2fde93[m
+Author: Joana Dias <dias.jo1992@gmail.com>
+Date:   Thu Aug 26 23:34:16 2021 -0300
+
+    version 0
+
+[33mcommit a84a82ebb9dd5758c9c6b0e96c4b3bd59dc4396e[m
+Author: Joana Dias <dias.jo1992@gmail.com>
+Date:   Thu Aug 26 23:13:12 2021 -0300
+
+    arrumei a posição do botão usando margin e display
+
+[33mcommit 28654c98b7b036e279a01c160a8c50ec9c94452f[m
+Author: Joana Dias <dias.jo1992@gmail.com>
+Date:   Thu Aug 26 22:35:30 2021 -0300
+
+    coloquei o botão voltar para funcionar adicionando o link no href
+
+[33mcommit a223cf90ba44e7ae39c6f4aa5331ac2b230c8e6d[m[33m ([m[1;31morigin/quinzena3[m[33m)[m
+Author: Joana Dias <dias.jo1992@gmail.com>
+Date:   Thu Aug 26 19:32:55 2021 -0300
+
+    Inclusão do exercicio de JS
+
+[33mcommit 06dc68804e1d93f39c62038499b27be310b224a2[m
+Author: Joana Dias <dias.jo1992@gmail.com>
+Date:   Thu Aug 26 19:05:30 2021 -0300
+
+    Introduzindo css no HTML
+
+[33mcommit 9193147fbf9e1bf1daa87489519fbf733b1cb541[m
+Merge: 6183991 b602f9f
+Author: jojodias28 <86752698+jojodias28@users.noreply.github.com>
+Date:   Sat Aug 21 11:54:08 2021 -0300
+
+    Merge pull request #17 from future4code/quinzena3
+    
+    Version 1
+
+[33mcommit 6183991b56699b9042c417ab075cc3a63f2b77de[m
+Merge: bedd9ea 5538875
+Author: jojodias28 <86752698+jojodias28@users.noreply.github.com>
+Date:   Sat Aug 21 11:53:22 2021 -0300
+
+    Merge pull request #15 from future4code/quinzena2-aula10
+    
+    Exercicio funções de array
+
+[33mcommit b602f9fee4ce92e4fe59cec8ed10a6d7be23c983[m
+Author: Joana Dias <dias.jo1992@gmail.com>
+Date:   Sat Aug 21 11:49:28 2021 -0300
+
+    version 6
+
+[33mcommit 7f0aa8efbc43f9ee8b70fc51deb10f5e6c1acb4c[m
+Author: Joana Dias <dias.jo1992@gmail.com>
+Date:   Sat Aug 21 11:24:09 2021 -0300
+
+    version 5
+
+[33mcommit ced0787191b93eab03d926e57053a5d3274d716f[m
+Author: Joana Dias <dias.jo1992@gmail.com>
+Date:   Wed Aug 18 19:04:56 2021 -0300
+
+    version 4
+
+[33mcommit 535890a382c78edaaa9f8762cc3206fa3b157883[m
+Author: Joana Dias <dias.jo1992@gmail.com>
+Date:   Wed Aug 18 19:01:38 2021 -0300
+
+    version 3
+
+[33mcommit ff3fa07baf87cf211a7bd8bb3df85c635bdf9951[m
+Author: Joana Dias <dias.jo1992@gmail.com>
+Date:   Wed Aug 18 18:55:32 2021 -0300
+
+    version 2
+
+[33mcommit 6a816ae384ad0903f09639eef071b1be68031dcd[m
+Author: Joana Dias <dias.jo1992@gmail.com>
+Date:   Tue Aug 17 23:49:57 2021 -0300
+
+    Version 1
+
+[33mcommit bedd9eab4ea3dac8a3e9cb9ae1be4a5aae640f48[m
+Merge: 9a9731a c927296
+Author: jojodias28 <86752698+jojodias28@users.noreply.github.com>
+Date:   Tue Aug 17 22:42:49 2021 -0300
+
+    Merge pull request #16 from future4code/quinzena3-projeto01
+    
+    Quinzena3 projeto01
+
+[33mcommit c9272967c777ca7f01be78b12dd9b9f4792d04a4[m[33m ([m[1;31morigin/quinzena3-projeto01[m[33m)[m
+Author: Joana Dias <dias.jo1992@gmail.com>
+Date:   Sun Aug 15 22:18:33 2021 -0300
+
+    exercicios js
+
+[33mcommit ea7d385432a08b335317305b18873f0b2813aa38[m
+Author: Joana Dias <dias.jo1992@gmail.com>
+Date:   Sat Aug 14 01:16:11 2021 -0300
+
+    versao 2
+
+[33mcommit 69649d8a54036f1862f0ca5c84322d2b1b1cc105[m
+Author: Joana Dias <dias.jo1992@gmail.com>
+Date:   Fri Aug 13 00:14:30 2021 -0300
+
+    version 1
+
+[33mcommit 55388750fcbd7895cccf77e888d9ad6f6e0f680c[m[33m ([m[1;31morigin/quinzena2-aula10[m[33m)[m
+Author: Joana Dias <dias.jo1992@gmail.com>
+Date:   Thu Aug 12 17:44:21 2021 -0300
+
+    ultima versão
+
+[33mcommit f268891a03e2e3e22a7b2c01281092390e395b8f[m
+Author: Joana Dias <dias.jo1992@gmail.com>
+Date:   Wed Aug 11 00:22:05 2021 -0300
+
+    Exercicio aula-10
+
+[33mcommit 012ace15f568a5c7a9e77f5cb5c63839cddc8045[m
+Author: Joana Dias <dias.jo1992@gmail.com>
+Date:   Tue Aug 10 23:51:11 2021 -0300
+
+    Exercicio incompleto
+
+[33mcommit 9a9731a1d97e5014f540145b93b18dbb990d520a[m
+Merge: e60da9e a627de5
+Author: jojodias28 <86752698+jojodias28@users.noreply.github.com>
+Date:   Tue Aug 10 20:54:19 2021 -0300
+
+    Merge pull request #13 from future4code/quinzena2-aula09
+    
+    Quinzena2 aula09
+
+[33mcommit e60da9ebcf0c9da34f33a062164a4a69f21cf349[m
+Merge: a2cf80c e7d5f9d
+Author: jojodias28 <86752698+jojodias28@users.noreply.github.com>
+Date:   Tue Aug 10 20:44:14 2021 -0300
+
+    Merge pull request #14 from future4code/quinzena2-projeto2
+    
+    teste
+
+[33mcommit e7d5f9d8c422f38a7e7d0975ad94fd51ee5f3d1f[m[33m ([m[1;31morigin/quinzena2-projeto2[m[33m)[m
+Author: Joana Dias <dias.jo1992@gmail.com>
+Date:   Fri Aug 6 22:56:10 2021 -0300
+
+    feito
+
+[33mcommit 973b63765e5efae8e365ffd6d86f1d23f373ea6c[m
+Author: Joana Dias <dias.jo1992@gmail.com>
+Date:   Fri Aug 6 21:13:56 2021 -0300
+
+    teste
+
+[33mcommit a627de58f8168ee32c17c7aee2ba8d4bd816c1d3[m[33m ([m[1;31morigin/quinzena2-aula09[m[33m)[m
+Author: Joana Dias <dias.jo1992@gmail.com>
+Date:   Fri Aug 6 17:07:51 2021 -0300
+
+    correção
+
+[33mcommit a2cf80cbc35f18db66d575ef4ea90dae5d2b502d[m
+Merge: dca158e 19789ea
+Author: jojodias28 <86752698+jojodias28@users.noreply.github.com>
+Date:   Thu Aug 5 21:50:50 2021 -0300
+
+    Merge pull request #12 from future4code/quinzena2-aula08
+    
+    condicionnais
+
+[33mcommit 75eef25c70b4cb6b65cb5469b1325aeecebc4720[m
+Author: Joana Dias <dias.jo1992@gmail.com>
+Date:   Thu Aug 5 21:38:06 2021 -0300
+
+    correção
+
+[33mcommit ae7a9e95d0222157fcf32d61b1684c210e8905c8[m
+Author: Joana Dias <dias.jo1992@gmail.com>
+Date:   Thu Aug 5 19:38:28 2021 -0300
+
+    exercicio completo
+
+[33mcommit b96957eb9f45ca6e5b34e32126fb0a8932783c59[m
+Author: Joana Dias <dias.jo1992@gmail.com>
+Date:   Thu Aug 5 00:53:19 2021 -0300
+
+    exercicios imcompletos
+
+[33mcommit 19789eac3307dde73847e1c601f851a1c56595dd[m[33m ([m[1;31morigin/quinzena2-aula08[m[33m)[m
+Author: Joana Dias <dias.jo1992@gmail.com>
+Date:   Tue Aug 3 22:50:16 2021 -0300
+
+    condicionnais
+
+[33mcommit dca158e03c4aba0677b29c460dc7e9dda4a72955[m
+Merge: f39cbe6 3f3f208
+Author: jojodias28 <86752698+jojodias28@users.noreply.github.com>
+Date:   Tue Aug 3 19:25:12 2021 -0300
+
+    Merge pull request #11 from future4code/quinzena2-aula07
+    
+    aula07
+
+[33mcommit f39cbe63c34ec6d14cdcb9fc614c4d20567d45bf[m
+Merge: 45970c8 0138e35
+Author: jojodias28 <86752698+jojodias28@users.noreply.github.com>
+Date:   Tue Aug 3 19:24:49 2021 -0300
+
+    Merge pull request #10 from future4code/quinzena2-aula06
+    
+    funcoes
+
+[33mcommit 3f3f208746aeac2df6f03026111db65340e22f3d[m[33m ([m[1;31morigin/quinzena2-aula07[m[33m)[m
+Author: Joana Dias <dias.jo1992@gmail.com>
+Date:   Thu Jul 29 02:25:00 2021 -0300
+
+    aula07
+
+[33mcommit 0138e350a1536e4ebf4ebba7370d1c291d697f4d[m[33m ([m[1;31morigin/quinzena2-aula06[m[33m)[m
+Author: Joana Dias <dias.jo1992@gmail.com>
+Date:   Tue Jul 27 22:58:16 2021 -0300
+
+    funcoes
+
+[33mcommit 45970c86b674e3cd5ab4f889967add986c864b15[m
+Merge: e987f37 4e0fae0
+Author: jojodias28 <86752698+jojodias28@users.noreply.github.com>
+Date:   Tue Jul 27 19:49:23 2021 -0300
+
+    Merge pull request #9 from future4code/quinzena1-projeto1
+    
+    Quinzena1 projeto1
+
+[33mcommit e987f375f519e5e9ef074446d6dfdc35dc2dece4[m
+Merge: aa07fe9 28ce8f4
+Author: jojodias28 <86752698+jojodias28@users.noreply.github.com>
+Date:   Tue Jul 27 19:48:36 2021 -0300
+
+    Merge pull request #8 from future4code/quinzena1-aula05
+    
+    arrays aula 05
+
+[33mcommit 4e0fae0e8c05802cf71153b46b67eab70eefc397[m[33m ([m[1;31morigin/quinzena1-projeto1[m[33m)[m
+Merge: caa3369 aa07fe9
+Author: Amanda Rangel <50452552+amandarangel@users.noreply.github.com>
+Date:   Sat Jul 24 11:47:04 2021 -0300
+
+    Merge branch 'master' into quinzena1-projeto1
+
+[33mcommit caa3369d7b1a6c1a2bbd60734162fb6f89b0e05e[m
+Author: Joana Dias <dias.jo1992@gmail.com>
+Date:   Fri Jul 23 23:55:38 2021 -0300
+
+    projeto quinzenal1
+
+[33mcommit aa07fe9fd55bcf79f782ae132c2fe0f012dcfdfd[m
+Merge: afd314b 783d555
+Author: jojodias28 <86752698+jojodias28@users.noreply.github.com>
+Date:   Thu Jul 22 20:51:04 2021 -0300
+
+    Merge pull request #7 from future4code/quinzena1-aula04
+    
+    Quinzena1 aula04
+
+[33mcommit 28ce8f4a38ad8f547aeba39b78cd95946c512be3[m[33m ([m[1;31morigin/quinzena1-aula05[m[33m)[m
+Author: Joana Dias <dias.jo1992@gmail.com>
+Date:   Thu Jul 22 20:43:08 2021 -0300
+
+    arrays aula 05
+
+[33mcommit a8eeb65db48fc3c48a8bec3b92211249cf38e085[m
+Author: Joana Dias <dias.jo1992@gmail.com>
+Date:   Thu Jul 22 20:00:41 2021 -0300
+
+    lista exercicio incompleto
+
+[33mcommit 783d5557b30e1b7284e2d404a329f6ee31708917[m[33m ([m[1;31morigin/quinzena1-aula04[m[33m)[m
+Author: Joana Dias <dias.jo1992@gmail.com>
+Date:   Tue Jul 20 16:27:00 2021 -0300
+
+    version 1
+
+[33mcommit 0ff6aa88da1ff9cf5ef829166849954ef950f8da[m
+Author: Joana Dias <dias.jo1992@gmail.com>
+Date:   Tue Jul 20 15:53:28 2021 -0300
+
+    quinzena1-aula04
+
+[33mcommit afd314b1f67e196955262d9a88531bab675aa234[m
+Merge: 22ef191 b1da359
+Author: jojodias28 <86752698+jojodias28@users.noreply.github.com>
+Date:   Mon Jul 19 12:01:00 2021 -0300
+
+    Merge pull request #6 from future4code/quinzena1-aula03
+    
+    template_javascript/index.js
+
+[33mcommit b1da359004de4c914eff40f3debd7043dacebd30[m[33m ([m[1;31morigin/quinzena1-aula03[m[33m)[m
+Author: Joana Dias <dias.jo1992@gmail.com>
+Date:   Thu Jul 15 22:44:21 2021 -0300
+
+    template_javascript/index.js
+
+[33mcommit 22ef191a5ca9f2d202569157efc76f51b47e465e[m
+Merge: 9764d12 f57ed4e
+Author: jojodias28 <86752698+jojodias28@users.noreply.github.com>
+Date:   Thu Jul 15 18:01:35 2021 -0300
+
+    Merge pull request #5 from future4code/semana0-aula2-5
+    
+    redes sociais
+
+[33mcommit 9764d1249c0db2ad2fcfc2bfe6bdddc16f32d563[m
+Merge: 8c178fb 24d9216
+Author: jojodias28 <86752698+jojodias28@users.noreply.github.com>
+Date:   Thu Jul 15 18:01:19 2021 -0300
+
+    Merge pull request #4 from future4code/semana0-aula2-4
+    
+    comidas
+
+[33mcommit 8c178fb71b8a4d6f6eaa22620b4da7573382c410[m
+Merge: 0206e3a e68a14e
+Author: jojodias28 <86752698+jojodias28@users.noreply.github.com>
+Date:   Thu Jul 15 18:01:00 2021 -0300
+
+    Merge pull request #3 from future4code/semana0-aula2-3
+    
+    filmes
