@@ -4,10 +4,12 @@ import axios from 'axios'
 import Pagina from './components/Pagina'
 
 const Body = styled.div`
-text-align: center
+text-align: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
 `
 const ButtonFooter = styled.div`
-margin-top:20px
+margin-top:20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
 `
 
 const Main = styled.div`
@@ -15,7 +17,32 @@ display: flex;
 flex-direction:column;
 justify-content:center;
 align-items:center;
-margin:10px
+margin:10px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+`
+const HeaderPagina = styled.div`
+background-color:orange;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+height:60px;
+padding: 0px 20px 0px 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+
+`
+const EstilizarButton = styled.button`
+border: none;
+border-start-end-radius: 5px;
+border-end-start-radius: 5px;
+height:30px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+
+:hover {
+  transition: all 0.5s;
+  color: white;
+  background-color: black
+}
 `
 
 const headers = {
@@ -68,6 +95,7 @@ class App extends React.Component {
   };
 
   deleteUsuario = (id) => {
+    if(window.confirm("Deseja deletar esse usuário?")){
     axios
       .delete(`https://us-central1-labenu-apis.cloudfunctions.net/labenusers/users/${id}`, headers)
       .then((respostas) => {
@@ -79,7 +107,7 @@ class App extends React.Component {
         alert("Ops! Algo deu Errado :(")
         console.log(erros);
       })
-
+    }
   }
 
   onChangeUsuario = (e) => {
@@ -112,13 +140,13 @@ class App extends React.Component {
 
     return (
       <Body>
-        <div>
+        <HeaderPagina>
           <h1>Labenusers</h1>
-          <button onClick={this.renderizaPagina}>Trocar de Página</button>
-        </div>
+          <EstilizarButton onClick={this.renderizaPagina}>Trocar de Página</EstilizarButton>
+        </HeaderPagina>
 
         <Main>
-         <h2>Cadastro</h2>
+         <h1>Cadastro</h1>
          <input
             placeholder="Nome"
             value={this.state.usuario}
@@ -131,7 +159,7 @@ class App extends React.Component {
           />
         </Main>
         <ButtonFooter>
-        <button onClick={this.criarUsuario}>Criar</button>
+        <EstilizarButton onClick={this.criarUsuario}>Criar</EstilizarButton>
         </ButtonFooter>
 
 
