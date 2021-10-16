@@ -33,7 +33,7 @@ const HeaderPrincipal = styled.div`
 const MainPrincipal = styled.div`
   color: #05df05;
   background-image: url(https://rich-rub.surge.sh/static/media/MusicBlack.717e7e0b.jpg);
-  height: 100vh;
+  min-height: 100vh;
   width: 98, 5vw;
   display: flex;
   justify-content: center;
