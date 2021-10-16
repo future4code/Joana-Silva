@@ -25,7 +25,8 @@ const HeaderPrincipal = styled.div`
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 
   @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
-    font-size: 10px;
+    font-size: 20px;
+    width: 100vw;
   }
 `;
 
@@ -46,6 +47,17 @@ const MainPrincipal = styled.div`
   position: relative;
   display: flex;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    font-size: 25px;
+    width: 100vw;
+    height: 110vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 `;
 const InputPlaylist = styled.input`
   height: 40px;
@@ -65,6 +77,14 @@ const InputPlaylist = styled.input`
   :focus {
     outline: none;
   }
+
+  @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    font-size: 25px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 250px;
+  }
 `;
 const ButtonPlaylist = styled.button`
   display: flex;
@@ -82,6 +102,11 @@ const ButtonPlaylist = styled.button`
   height: 60px;
   background-image: linear-gradient(to left, green, #30a14a, #05df05);
   color: black;
+
+  @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    font-size: 15px;
+    width: 150px;
+  }
 `;
 const FooterList = styled.footer`
   display: flex;
@@ -94,6 +119,11 @@ const FooterList = styled.footer`
   height: 15vh;
   width: 98, 5vw;
   color: #05df05;
+
+  @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    width: 100vw;
+    font-size: 12px;
+  }
 `;
 
 const headers = {

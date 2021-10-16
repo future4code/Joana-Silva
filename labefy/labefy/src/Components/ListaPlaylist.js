@@ -26,7 +26,8 @@ const HeaderPrincipal = styled.div`
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 
   @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
-    font-size: 10px;
+    font-size: 20px;
+    width: 100vw;
   }
 `;
 
@@ -48,6 +49,17 @@ const MainPrincipal = styled.div`
   display: flex;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   position: relative;
+
+  @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    font-size: 25px;
+    width: 100vw;
+    min-height: 110vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 `;
 
 const ButtonPlaylist = styled.button`
@@ -67,6 +79,11 @@ const ButtonPlaylist = styled.button`
   height: 60px;
   background-image: linear-gradient(to left, green, #30a14a, #05df05);
   color: black;
+
+  @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    font-size: 15px;
+    width: 150px;
+  }
 `;
 
 const PlayListCard = styled.div`
@@ -82,6 +99,11 @@ const PlayListCard = styled.div`
   padding: 12px;
   margin-bottom: 20px;
   flex-direction: left;
+
+  @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    font-size: 15px;
+    width: 50%;
+  }
 `;
 
 const ButtonListCard = styled.button`
@@ -91,6 +113,11 @@ const ButtonListCard = styled.button`
   background-color: black;
   color: #05df05;
   width: 100px;
+
+  @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    font-size: 12px;
+    width: 80px;
+  }
 `;
 
 const FooterList = styled.footer`
@@ -104,6 +131,11 @@ const FooterList = styled.footer`
   height: 15vh;
   width: 98, 5vw;
   color: #05df05;
+
+  @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    width: 100vw;
+    font-size: 12px;
+  }
 `;
 
 const headers = {
