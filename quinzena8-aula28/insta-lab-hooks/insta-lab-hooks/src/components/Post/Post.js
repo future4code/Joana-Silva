@@ -44,46 +44,46 @@ const Post = (props) => {
     setComentando(false);
     setNumeroComentarios(numeroComentarios + 1);
   };
+
+  const iconeCurtida = curtido ? iconeCoracaoPreto : iconeCoracaoBranco;
+
+  const caixaDeComentario = comentando ? (
+    <SecaoComentario enviarComentario={enviarComentario} />
+  ) : (
+    comentarios.map((comentario) => {
+      return (
+        <CommentContainer>
+          <p>{comentario}</p>
+        </CommentContainer>
+      );
+    })
+  );
+
+  return (
+    <PostContainer>
+      <PostHeader>
+        <UserPhoto src={props.fotoUsuario} alt={"Imagem do usuario"} />
+        <p>{props.nomeUsuario}</p>
+      </PostHeader>
+
+      <PostPhoto src={props.fotoPost} alt={"Imagem do post"} />
+
+      <PostFooter>
+        <IconeComContador
+          icone={iconeCurtida}
+          onClickIcone={onClickCurtida}
+          valorContador={numeroCurtidas}
+        />
+
+        <IconeComContador
+          icone={iconeComentario}
+          onClickIcone={onClickComentario}
+          valorContador={numeroComentarios}
+        />
+      </PostFooter>
+      {caixaDeComentario}
+    </PostContainer>
+  );
 };
-
-const iconeCurtida = curtido ? iconeCoracaoPreto : iconeCoracaoBranco;
-
-const caixaDeComentario = comentando ? (
-  <SecaoComentario enviarComentario={enviarComentario} />
-) : (
-  comentarios.map((comentario) => {
-    return (
-      <CommentContainer>
-        <p>{comentario}</p>
-      </CommentContainer>
-    );
-  })
-);
-
-return (
-  <PostContainer>
-    <PostHeader>
-      <UserPhoto src={props.fotoUsuario} alt={"Imagem do usuario"} />
-      <p>{props.nomeUsuario}</p>
-    </PostHeader>
-
-    <PostPhoto src={props.fotoPost} alt={"Imagem do post"} />
-
-    <PostFooter>
-      <IconeComContador
-        icone={iconeCurtida}
-        onClickIcone={onClickCurtida}
-        valorContador={numeroCurtidas}
-      />
-
-      <IconeComContador
-        icone={iconeComentario}
-        onClickIcone={onClickComentario}
-        valorContador={numeroComentarios}
-      />
-    </PostFooter>
-    {caixaDeComentario}
-  </PostContainer>
-);
 
 export default Post;
