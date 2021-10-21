@@ -7,7 +7,6 @@ const App = (props) => {
   const [pokeName, setPokename] = useState("");
 
   useEffect(() => {
-    // função axios que está batendo na API e buscando 151 pokemons
     axios
       .get("https://pokeapi.co/api/v2/pokemon/?limit=151")
       .then((response) => {

@@ -18,7 +18,6 @@ const Pokecard = (props) => {
 
     pegaPokemon();
   }, [props.pokeName]);
-  //   const pokemon = pokemon;
 
   return (
     <div>
