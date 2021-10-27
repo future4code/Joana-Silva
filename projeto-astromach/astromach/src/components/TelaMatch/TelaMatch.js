@@ -1,39 +1,59 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-// import { BASE_URL } from "../../constants/urls";
+import { BASE_URL } from "../../Constants/Url";
+import Swal from "sweetalert2";
 
 const TelaMatch = (props) => {
-  const [listMatch, setListMatch] = useState([]);
+  const [listaMatch, setListaMatch] = useState([]);
 
-  const getMatch = () => {
+  const pegarMatch = () => {
     axios
-      .get(
-        `https://us-central1-missao-newton.cloudfunctions.net/astroMatch/:joana/matches`
-      )
+      .get(`${BASE_URL}/matches`)
       .then((response) => {
-        setListMatch(response.data.matches);
+        setListaMatch(response.data.matches);
       })
       .catch((erro) => {
         alert(erro);
       });
   };
 
-  useEffect =
-    (() => {
-      getMatch();
-    },
-    []);
+  useEffect(() => {
+    pegarMatch();
+  }, []);
+
+  const limparMatch = () => {
+    const header = {
+      headers: {
+        "Content-Type": "application/json",
+      },
+    };
+
+    if (window.confirm("Deseja apagar a lista de Match?")) {
+      axios
+        .put(`${BASE_URL}/clear`, header)
+        .then((response) => {
+          Swal.fire("", "A Lista foi apagada com sucesso!", "success");
+          setListaMatch(response.data.message);
+        })
+        .catch((erro) => {
+          Swal.fire("", "Ops! Algo deu Errado :(", "error");
+        });
+    }
+  };
 
   return (
     <div>
-      {listMatch.map((pokemon) => {
+      <h2>Lista De Match</h2>
+      {listaMatch.map((match) => {
         return (
           <div>
-            <img src={listMatch.photo}></img>
-            <p> {listMatch.name}</p>
+            <img src={match.photo}></img>
+            <p> {match.name}</p>
           </div>
         );
       })}
+
+      <button onClick={limparMatch}> Limpar match</button>
 
       <button onClick={props.irParaTelaPrincipal}>Ir para Tela Inicial </button>
     </div>

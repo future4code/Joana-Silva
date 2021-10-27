@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
+import axios from "axios";
 import TelaInicial from "./components/TelaInicial/TelaInicial";
 import TelaMatch from "./components/TelaMatch/TelaMatch";
 
-const App = (props) => {
+const App = () => {
   const [telaPrincipal, setTelaPrincipal] = useState("profile");
 
   const escolheTela = () => {
