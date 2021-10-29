@@ -1,31 +1,50 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import TelaInicial from "./components/TelaInicial/TelaInicial";
-import TelaMatch from "./components/TelaMatch/TelaMatch";
+import { BASE_URL } from "../src/Constants/Url";
+import MainScreen from "./components/MainScreen/MainScreen";
+import MatchScreen from "./components/MatchScreen/MatchScreen";
+import Swal from "sweetalert2";
 
 const App = () => {
-  const [telaPrincipal, setTelaPrincipal] = useState("profile");
+  const [mainScreen, setMainScreen] = useState("profile");
 
-  const escolheTela = () => {
-    switch (telaPrincipal) {
+  const chooseScreen = () => {
+    switch (mainScreen) {
       case "profile":
-        return <TelaInicial irParaTelaMatch={irParaTelaMatch} />;
+        return <MainScreen onChangeMatchScreen={onChangeMatchScreen} />;
       case "match":
-        return <TelaMatch irParaTelaPrincipal={irParaTelaPrincipal} />;
+        return <MatchScreen onChangeMainScreen={onChangeMainScreen} />;
       default:
         return <div>Erro! Página não encontrada :(</div>;
     }
   };
 
-  const irParaTelaPrincipal = () => {
-    setTelaPrincipal("profile");
+  const onChangeMainScreen = () => {
+    setMainScreen("profile");
   };
 
-  const irParaTelaMatch = () => {
-    setTelaPrincipal("match");
+  const onChangeMatchScreen = () => {
+    setMainScreen("match");
   };
 
-  return <div>{escolheTela()}</div>;
+  const deleteMatch = () => {
+    axios
+      .put(`${BASE_URL}/clear`)
+      .then((response) => {
+        Swal.fire("", "A Lista foi apagada com sucesso!", "success");
+        setMainScreen("profile");
+      })
+      .catch((error) => {
+        Swal.fire("", "Ops! Algo deu Errado :(", "error");
+      });
+  };
+
+  return (
+    <div>
+      {chooseScreen()}
+      <button onClick={deleteMatch}>Delete All</button>
+    </div>
+  );
 };
 
 export default App;
