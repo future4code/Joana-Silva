@@ -1,5 +1,18 @@
+import { useHistory } from "react-router-dom";
+
 const CreatTripPage = () => {
-  return <div></div>;
+  const history = useHistory();
+
+  const goBack = () => {
+    history.goBack();
+  };
+
+  return (
+    <div>
+      <button onClick={goBack}>Voltar</button>
+      <button>Criar</button>
+    </div>
+  );
 };
 
 export default CreatTripPage;
