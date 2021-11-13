@@ -1,5 +1,5 @@
 import AdminHomePage from "../Pages/AdminHomePage/AdminHomePage";
-import ApplicationFormPages from "../Pages/ApplicationFormPage/ApplicationFormPage";
+import ApplicationFormPage from "../Pages/ApplicationFormPage/ApplicationFormPage";
 import CreatTripPage from "../Pages/CreateTripPage/CreateTripPage";
 import HomePage from "../Pages/HomePage/HomePage";
 import ListTripsPage from "../Pages/ListTripsPage/ListTripsPage";
@@ -21,7 +21,7 @@ export const Router = () => {
         </Route>
 
         <Route exact path={"/trips/application"}>
-          <ApplicationFormPages />
+          <ApplicationFormPage />
         </Route>
 
         <Route exact path={"/admin/trips/create"}>

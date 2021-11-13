@@ -1,32 +1,62 @@
 import { useHistory } from "react-router-dom";
 import { BASE_URL } from "../../Constants/Url";
-import useRequestData from "../../Hooks/useRequestData";
+import axios from "axios";
+import { useState, useEffect } from "react";
+
 
 const ListTripsPage = () => {
-  const [listTrips, setListTrips, isCarregando, erro] = useRequestData(
-    `${BASE_URL}/trips`
-  );
+  const [listTrips, setListTrips] = useState([]);
+ 
 
-  const history = useHistory();
+  useEffect(() => {
+    getTrips()
+  }, []);
+
+  const history = useHistory()
+
+  const getTrips = () => {
+
+    axios.get(`${BASE_URL}/trips`)
+      .then((response) => {
+        console.log(response.data.trips)
+        setListTrips(response.data.trips)
+      })
+      .catch((error) => {
+        console.log(error.message);
+      })
+  }
+
 
   const goBack = () => {
-    history.goBack();
-  };
+    history.goBack()
+  }
 
   const goToApplicationFormPage = () => {
-    history.push("/trips/application");
-  };
+    history.push("/trips/application")
+  }
 
+ 
   return (
     <div>
-      {listTrips?.map((trips) => {
-        return <p key={trips.id}>{trips.name}</p>;
-      })}
+
       <h1>Lista De Viagens</h1>
+      {listTrips?.map((trips) => {
+        return (
+          <div>
+            <p key={trips.id}>{trips.name}</p>
+            <p> {trips.description} </p>
+            <p> {trips.planet} </p>
+            <p>{trips.durationInDays}</p>
+            <p>{trips.date}</p>
+          </div>
+         )
+      })}
+      
       <button onClick={goBack}>Voltar</button>
       <button onClick={goToApplicationFormPage}>Increva-se</button>
     </div>
-  );
-};
+  )
+    
+}
 
-export default ListTripsPage;
+export default ListTripsPage

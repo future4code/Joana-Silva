@@ -9,7 +9,7 @@ const HomePage = () => {
 
   const goToLoginPage = () => {
     history.push("/login");
-    /* const token = localStorage.getItem('token');
+     const token = localStorage.getItem('token');
         if (token === null) {
             history.push("/login");
         }
@@ -17,8 +17,7 @@ const HomePage = () => {
             history.push("/admin/trips/list");
         };
     };
-}*/
-  };
+
 
   return (
     <div>
