@@ -1,31 +1,15 @@
+import React from "react";
 import { useHistory } from "react-router-dom";
 import { BASE_URL } from "../../Constants/Url";
-import axios from "axios";
-import { useState, useEffect } from "react";
+import useRequestData from "../../Hooks/UseRequestData";
+import { MainCard, Card } from "./ListTripsStyled";
 
 
 const ListTripsPage = () => {
-  const [listTrips, setListTrips] = useState([]);
- 
 
-  useEffect(() => {
-    getTrips()
-  }, []);
+  const [listTripsData] = useRequestData(`${BASE_URL}/trips`)
 
   const history = useHistory()
-
-  const getTrips = () => {
-
-    axios.get(`${BASE_URL}/trips`)
-      .then((response) => {
-        console.log(response.data.trips)
-        setListTrips(response.data.trips)
-      })
-      .catch((error) => {
-        console.log(error.message);
-      })
-  }
-
 
   const goBack = () => {
     history.goBack()
@@ -35,28 +19,28 @@ const ListTripsPage = () => {
     history.push("/trips/application")
   }
 
- 
-  return (
-    <div>
 
+
+  return (
+
+    <MainCard>
       <h1>Lista De Viagens</h1>
-      {listTrips?.map((trips) => {
+      {listTripsData?.trips.map((trip) => {
         return (
-          <div>
-            <p key={trips.id}>{trips.name}</p>
-            <p> {trips.description} </p>
-            <p> {trips.planet} </p>
-            <p>{trips.durationInDays}</p>
-            <p>{trips.date}</p>
-          </div>
-         )
+          <Card>
+            <p key={trip.id}> <strong> Nome:</strong>{trip.name}</p>
+            <p> <strong>Descrição: </strong> {trip.description} </p>
+            <p> <strong> Planeta: </strong> {trip.planet} </p>
+            <p> <strong> DUração em dias:</strong> {trip.durationInDays}</p>
+            <p> <strong> Data:</strong> {trip.date}</p>
+          </Card>
+        )
       })}
-      
       <button onClick={goBack}>Voltar</button>
       <button onClick={goToApplicationFormPage}>Increva-se</button>
-    </div>
+    </MainCard>
   )
-    
+
 }
 
 export default ListTripsPage

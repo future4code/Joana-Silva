@@ -1,3 +1,4 @@
+import React from "react";
 import { useHistory } from "react-router-dom";
 
 const HomePage = () => {
@@ -9,14 +10,14 @@ const HomePage = () => {
 
   const goToLoginPage = () => {
     history.push("/login");
-     const token = localStorage.getItem('token');
-        if (token === null) {
-            history.push("/login");
-        }
-        else {
-            history.push("/admin/trips/list");
-        };
+    const token = localStorage.getItem('token');
+    if (token === null) {
+      history.push("/login");
+    }
+    else {
+      history.push("/admin/trips/list");
     };
+  };
 
 
   return (

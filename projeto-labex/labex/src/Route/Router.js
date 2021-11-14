@@ -1,3 +1,4 @@
+import React from 'react'
 import AdminHomePage from "../Pages/AdminHomePage/AdminHomePage";
 import ApplicationFormPage from "../Pages/ApplicationFormPage/ApplicationFormPage";
 import CreatTripPage from "../Pages/CreateTripPage/CreateTripPage";
@@ -36,7 +37,7 @@ export const Router = () => {
           <LoginPage />
         </Route>
 
-        <Route exact path={"/admin/trips/:id"}>
+        <Route exact path={"/admin/trips/:tripId"}>
           <TripDetaislPage />
         </Route>
       </Switch>

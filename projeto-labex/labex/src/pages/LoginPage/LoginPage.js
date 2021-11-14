@@ -19,25 +19,24 @@ const LoginPage = () => {
       email: form.email,
       password: form.password,
 
-  };
-  axios.post(`${BASE_URL}/login`, body)
-            .then((response) => {
-              localStorage.setItem('token', response.data.token)
-              history.push("/admin/trips/list")
-              cleanFields();
-            })
-            .catch((error) => {
-              alert("Ops! Usuário ou senha incorretos")
-            })
+    };
+    axios.post(`${BASE_URL}/login`, body)
+      .then((response) => {
+        localStorage.setItem('token', response.data.token)
+        history.push("/admin/trips/list")
 
-   
-   
-  };
+      })
+      .catch((error) => {
+        alert("Ops! Usuário ou senha incorretos")
+      })
 
-  const goBack = () => {
-    history.goBack();
+    cleanFields();
+
   };
 
+  const goToHomePage = () => {
+    history.push("/")
+  }
 
 
   return (
@@ -52,7 +51,7 @@ const LoginPage = () => {
           placeholder="Email"
           required
           type="email"
-         
+
         />
         <input
           name={"password"}
@@ -68,9 +67,9 @@ const LoginPage = () => {
       </form>
 
 
-      <button onClick={goBack}>Voltar</button>
-     
-      
+      <button onClick={goToHomePage}>Voltar</button>
+
+
     </div>
   );
 };
