@@ -109,10 +109,12 @@ const CreatTripPage = () => {
           min={50}
 
         />
+            <div>
         <button>Criar</button>
+<button onClick={goBack}>Voltar</button>
+</div>
       </form>
-      <button onClick={goBack}>Voltar</button>
-      <button>Criar</button>
+      
     </div>
   );
 };
